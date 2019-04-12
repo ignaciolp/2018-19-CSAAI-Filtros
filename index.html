@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Filtro 5</title>
+    <link rel="stylesheet" href="filtros.css">
+    <script src="filtros.js"></script>
+  </head>
+  <body onload="main();">
+    <img src="logoURJC.png" id="imagesrc">
+    <canvas id="display"></canvas>
+    <p>Establece el umbral de rojo:</p>
+    <input type="range" id="deslizador_R" min="0" max="255" value="255"/>
+    <p id="range_value_R">--</p>
+
+    <p>Establece el umbral de verde:</p>
+    <input type="range" id="deslizador_G" min="0" max="255" value="255"/>
+    <p id="range_value_G">--</p>
+
+    <p>Establece el umbral de azul:</p>
+    <input type="range" id="deslizador_B" min="0" max="255" value="255"/>
+    <p id="range_value_B">--</p>
+
+    <p>Escala de grises</p>
+    <button type="button" name="button" id="Grises">Gris</button>
+  </body>
+</html>
